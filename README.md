@@ -47,15 +47,6 @@ Create a `.env` file using the example:
 cp .env.example .env
 ```
 
-Update the values in `.env`:
-
-```
-PORT=8089
-DATABASE_URL="mongodb+srv://todo_user:3po6P1BtSxUb@cluster0.ukqdni7.mongodb.net/todo?retryWrites=true&w=majority&appName=Cluster0"
-ACCESS_TOKEN_SECRET_KEY="37f8e2d1e3b8c9405a92c1d843b5fd1ad9b7f3c8c8a2f6f9b6ff7db9b8e740f4"
-SWAGGER_BASE_PATH="http://localhost:8089/api/"
-```
-
 ---
 
 ## 📜 Scripts
@@ -73,8 +64,15 @@ SWAGGER_BASE_PATH="http://localhost:8089/api/"
 Swagger UI is available at:
 
 ```
+[http://localhost:8089/api-docs](https://todo-backend-e335.onrender.com/api-docs/)
+```
+or
+
+if locally run
+```
 http://localhost:8089/api-docs
 ```
+
 
 Click **"Authorize"** and enter your JWT token to test protected routes.
 
